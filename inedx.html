@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meniny Slovensko</title>
+    <style>
+        html {
+            background-color: hsl(195, 89%, 53%);
+            padding: 0;
+            margin: 0;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+        button {
+            appearance: none;
+            border: none;
+            font-size: 2rem;
+            padding: 1rem 3rem;
+            border-radius: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+            color: hsl(195, 89%, 23%);
+        }
+        button:active{
+            box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <button id="generateICSButton">Generovať .ics</button>
+    <script src="script.js"></script>
+</body>
+</html>
